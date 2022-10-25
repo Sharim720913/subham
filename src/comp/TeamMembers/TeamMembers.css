@@ -1,0 +1,329 @@
+.HeadingText {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 50px;
+  text-align: center;
+  color: #ffffff;
+  flex: none;
+  border: 0;
+  flex-grow: 0;
+  margin-top: 0;
+  margin-bottom: 5rem;
+}
+
+.FlexRow {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Container {
+  padding-top: 50px;
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background: radial-gradient(
+      at top left,
+      rgba(9, 8, 68, 1),
+      transparent 1300px
+    ),
+    radial-gradient(at top right, rgb(36 110 119), transparent 1500px),
+    radial-gradient(at center left, rgba(33, 29, 43, 1), transparent 1300px),
+    radial-gradient(at center right, rgba(9, 8, 68, 1), transparent 1800px),
+    radial-gradient(at bottom right, rgba(97, 120, 104, 1), transparent 400px),
+    radial-gradient(at bottom left, rgba(9, 8, 68, 1), transparent 2000px);
+}
+
+.my-card {
+  /* background: rgba(1); */
+  clip-path: polygon(
+    30% 0%,
+    70% 0%,
+    100% 0,
+    100% 70%,
+    70% 100%,
+    30% 100%,
+    0 100%,
+    0% 30%
+  );
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 20px;
+  margin-left: 50px;
+  margin-bottom: 50px;
+}
+.MarginContainer {
+  margin: auto;
+}
+.CardText {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 150%;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+  padding-bottom: 5px;
+  margin-right: 60px;
+}
+.cardInfo {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 100%;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-right: 60px;
+  margin-left: 0px;
+}
+
+.TeamImage {
+  width: 274px;
+  height: 195px;
+}
+
+.Icon {
+  width: 30px;
+  height: 30px;
+}
+
+.IconSmall {
+  width: 20px;
+  height: 20px;
+  margin-left: 15px;
+}
+.ContentContainer {
+  display: flex;
+  justify-content: left;
+  align-items: end;
+  flex-direction: column;
+  margin-left: -30px;
+}
+
+.IconContainer {
+  width: 80%;
+
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+  margin-right: 20px;
+}
+
+/* custom carousel css */
+
+.card-carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  /* display: table-row; */
+
+  flex-direction: row;
+}
+/* @media (min-width: 102px) {
+  .card-carousel {
+    float: left;
+  }
+} */
+
+.card-carousel .my-card {
+  height: 450px;
+  width: 300px;
+  margin: 10px;
+  position: relative;
+  z-index: 1;
+  -webkit-transform: scale(0.6) translateY(-2rem);
+  transform: scale(0.6) translateY(-2rem);
+  opacity: 0;
+  cursor: pointer;
+  pointer-events: none;
+
+  background: linear-gradient(to top, #2e5266, #6e8898);
+  transition: 1s;
+}
+
+.card-carousel .my-card:after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  border-radius: 100%;
+
+  bottom: -5rem;
+  -webkit-filter: blur(4px);
+  filter: blur(4px);
+}
+
+.card-carousel .my-card:nth-child(0):before {
+  content: "0";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  font-size: 3rem;
+  font-weight: 300;
+}
+
+.card-carousel .my-card:nth-child(1):before {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  font-size: 3rem;
+  font-weight: 300;
+}
+
+.card-carousel .my-card:nth-child(2):before {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  font-size: 3rem;
+  font-weight: 300;
+}
+
+.card-carousel .my-card:nth-child(3):before {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  font-size: 3rem;
+  font-weight: 300;
+}
+
+.card-carousel .my-card:nth-child(4):before {
+  content: "4";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  font-size: 3rem;
+  font-weight: 300;
+}
+
+.card-carousel .my-card:nth-child(5):before {
+  content: "5";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  font-size: 3rem;
+  font-weight: 300;
+}
+
+.card-carousel .my-card:nth-child(6):before {
+  content: "6";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  font-size: 3rem;
+  font-weight: 300;
+}
+
+.card-carousel .my-card:nth-child(7):before {
+  content: "7";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  font-size: 3rem;
+  font-weight: 300;
+}
+
+.card-carousel .my-card:nth-child(8):before {
+  content: "8";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  font-size: 3rem;
+  font-weight: 300;
+}
+
+.card-carousel .my-card:nth-child(9):before {
+  content: "9";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  font-size: 3rem;
+  font-weight: 300;
+}
+
+.card-carousel .my-card.active {
+  z-index: 3;
+  -webkit-transform: scale(1) translateY(0) translateX(0);
+  transform: scale(1) translateY(0) translateX(0);
+  opacity: 1;
+  pointer-events: auto;
+  transition: 1s;
+}
+#prev {
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+#next {
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+
+  text-align: center;
+  cursor: pointer;
+}
+
+.card-carousel .my-card.prev,
+.card-carousel .my-card.next {
+  z-index: 2;
+
+  opacity: 0.6;
+  pointer-events: auto;
+  transition: 1s;
+}
+
+.card-carousel .my-card.next {
+  -webkit-transform: scale(0.9) translateY(0rem) translateX(0)
+    perspective(200px) rotateY(3deg);
+  transform: scale(0.9) translateY(0rem) translateX(0) perspective(200px)
+    rotateY(3deg);
+}
+.card-carousel .my-card.prev {
+  -webkit-transform: scale(0.9) translateY(0rem) translateX(0)
+    perspective(200px) rotateY(-3deg);
+  transform: scale(0.9) translateY(0rem) translateX(0) perspective(200px)
+    rotateY(-3deg);
+}
+
+@media only screen and (max-width: 600px) {
+  .CardContainer {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media only screen and (min-width: 120px) {
+  .Container {
+    background-color: #000;
+  }
+}

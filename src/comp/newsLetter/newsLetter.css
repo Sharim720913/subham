@@ -1,0 +1,109 @@
+.Container2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    margin-left:10px;
+    margin-right:10px
+   
+    
+}
+
+.HeadingText {
+    font-family: "Outfit";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 45px;
+    text-align: center;
+    color: #ffffff;
+    flex: none;
+    border: 0;
+    flex-grow: 0;
+}
+
+.NewsLetterContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    background: linear-gradient( 180deg, rgba(65, 106, 95, 0.392) 0%, rgba(60, 69, 128, 0.21) 100% );
+    box-shadow: inset 0px 0px 250px rgba(115, 224, 169, 0.1);
+    border-radius: 36px;
+    width: 100vh;
+    height: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+
+}
+
+.StyledInput {
+    background: rgba(67, 76, 84, 0.3);
+    border: none;
+    font-size: 24px;
+    margin-left: 5px;
+    border-radius: 15px;
+    width: 80%;
+}
+
+.InputContainer {
+    background: rgba(22, 27, 24, 0.42);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 20px;
+    border-radius: 5px;
+    width: 80%;
+}
+
+.SendButton {
+    width: 121px;
+    height: 42px;
+    color: #fff;
+    background: #73e0a9;
+    border-radius: 6px;
+    border: none;
+    margin: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+    .NewsLetterContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+        background: linear-gradient( 180deg, rgba(65, 106, 95, 0.392) 0%, rgba(60, 69, 128, 0.21) 100% );
+        box-shadow: inset 0px 0px 250px rgba(115, 224, 169, 0.1);
+        border-radius: 36px;
+        width: 70vh;
+        height: 80%;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .InputContainer {
+        background: rgba(22, 27, 24, 0.42);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        margin-top: 20px;
+        border-radius: 5px;
+        width:96%;
+    }
+
+    .StyledInput {
+        background: rgba(67, 76, 84, 0.3);
+        border: none;
+        font-size: 24px;
+        margin-left: 5px;
+        border-radius: 15px;
+        width: 80%;
+    }
+ 
+}

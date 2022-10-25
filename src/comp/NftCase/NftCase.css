@@ -1,0 +1,88 @@
+.Containernft {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background: radial-gradient( at top left, rgba(9, 8, 68, 1), transparent 1300px ), radial-gradient(at top right, rgba(44, 87, 137, 1), transparent 1500px), radial-gradient(at center left, rgba(33, 29, 43, 1), transparent 1300px), radial-gradient(at center right, rgba(9, 8, 68, 1), transparent 1800px), radial-gradient(at bottom right, rgba(97, 120, 104, 1), transparent 400px), radial-gradient(at bottom left, rgba(9, 8, 68, 1), transparent 2000px);
+    padding: 10px;
+    padding-top:130px;
+    padding-bottom:50px;
+}
+
+
+@media only screen and (max-width: 1200px) {
+    .Imagenft {
+        width: 250px;
+        height: 250px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .Imagenft {
+        width: 130px;
+        height: 130px;
+    }
+}
+
+.QaContainernft {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-left:11px;
+}
+
+.AnswerTextnft {
+    font-family: "Outfit";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: left;
+    background: linear-gradient( 99.82deg, #73e0a9 -35.91%, rgba(205, 255, 230, 0.76) 93.66% );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.HeadingTextnft {
+    font-family: "Outfit";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+    color: #ffffff;
+    flex: none;
+    border: 0;
+    flex-grow: 0;
+}
+@media only screen and (min-width: 1200px) {
+    .Containernft {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        background-color: #000;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .AnswerTextnft {
+        font-family: "Outfit";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        text-align: left;
+        background: linear-gradient( 99.82deg, #73e0a9 -35.91%, rgba(205, 255, 230, 0.76) 93.66% );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+}
+

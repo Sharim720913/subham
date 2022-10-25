@@ -1,0 +1,268 @@
+.Containerhero {
+    margin-top: 200px;
+    height: 650px;
+    width: 100%;
+    margin: 0px;
+    padding-bottom: 50px;
+    padding: 0px;
+    background-color: black;
+    background: radial-gradient( at bottom left, rgba(9, 8, 68, 1), transparent 1300px ), radial-gradient(at bottom right, rgb(36 110 119), transparent 1500px), radial-gradient(at center left, rgba(33, 29, 43, 1), transparent 1300px), radial-gradient(at center right, rgba(9, 8, 68, 1), transparent 1800px), radial-gradient(at top right, rgba(97, 120, 104, 1), transparent 400px), radial-gradient(at top left, rgba(9, 8, 68, 1), transparent 2000px);
+}
+
+.heroImageContainer {
+    padding-top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ImageRight {
+    width: 287px;
+    height: 287px;
+    position: relative;
+    left: 40px;
+    z-index: 1;
+}
+
+.ImageTop {
+    width: 287px;
+    height: 287px;
+    position: relative;
+    top: -50px;
+    z-index: 1;
+}
+
+.ImageLeft {
+    width: 287px;
+    height: 287px;
+    position: relative;
+    right: 40px;
+    z-index: 1;
+}
+
+.HeroTextContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    flex-direction: column;
+
+    
+}
+
+.HeroTitle {
+    font-family: "Outfit";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    color: #ffffff;
+    padding:0 30px 0 30px;
+}
+
+.FollowLine {
+    font-family: "Outfit";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+    color: #73e0a9;
+    padding: 0 30px 0 30px;
+}
+
+.BlockChainWrapper {
+    font-family: "Outfit";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 96px;
+    line-height: 121px;
+    color: rgba(115, 224, 169, 0.08);
+    text-shadow: 0px 0px 177px rgba(115, 224, 169, 0.09);
+    transform: rotate(-90deg);
+    position: absolute;
+    top: 45%;
+    z-index: 0;
+    left: -10%;
+}
+
+.NftContainer {
+    font-family: "Outfit";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 96px;
+    line-height: 121px;
+    color: rgba(115, 224, 169, 0.08);
+    text-shadow: 0px 0px 177px rgba(115, 224, 169, 0.09);
+    position: absolute;
+    top: 17%;
+    z-index: 0;
+    left: 15%;
+}
+
+.MetakulWarapper {
+    font-family: "Outfit";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 96px;
+    line-height: 121px;
+    color: rgba(115, 224, 169, 0.08);
+    text-shadow: 0px 0px 177px rgba(115, 224, 169, 0.09);
+    position: absolute;
+    top: 17%;
+    z-index: 0;
+    left: 70%;
+}
+
+.MetaVerse {
+    font-family: "Outfit";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 96px;
+    line-height: 121px;
+    color: rgba(115, 224, 169, 0.08);
+    text-shadow: 0px 0px 177px rgba(115, 224, 169, 0.09);
+    position: absolute;
+    top: 55%;
+    z-index: 0;
+    left: 70%;
+}
+
+
+@media only screen and (max-width: 1800px) {
+
+    .ImageRight {
+        width: 150px;
+        height: 150px;
+        position: relative;
+        left: 40px;
+        z-index: 1;
+    }
+
+    .ImageTop {
+        width: 150px;
+        height: 150px;
+        position: relative;
+        top: -50px;
+        z-index: 1;
+    }
+
+    .ImageLeft {
+        width: 150px;
+        height: 150px;
+        position: relative;
+        right: 40px;
+        z-index: 1;
+    }
+
+    .MetakulWarapper {
+        font-family: "Outfit";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 46px;
+        line-height: 121px;
+        color: rgba(115, 224, 169, 0.08);
+        text-shadow: 0px 0px 177px rgba(115, 224, 169, 0.09);
+        position: absolute;
+        top: 17%;
+        z-index: 0;
+        left: 40%;
+    }
+
+    .MetaVerse {
+        font-family: "Outfit";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 46px;
+        line-height: 121px;
+        color: rgba(115, 224, 169, 0.08);
+        text-shadow: 0px 0px 177px rgba(115, 224, 169, 0.09);
+        position: absolute;
+        top: 55%;
+        z-index: 0;
+        left: 40%;
+    }
+
+    .heroImageContainer {
+        padding-top: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%
+    }
+}
+@media only screen and (min-width: 1200px) {
+    .Containerhero {
+        margin-top: 200px;
+        height: 650px;
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+        background-color: #000;
+        
+    }
+}
+
+@media only screen and (max-width:700px) {
+
+    .NftContainer {
+        font-family: "Outfit";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 66px;
+        line-height: 100px;
+        color: rgba(115, 224, 169, 0.08);
+        text-shadow: 0px 0px 177px rgba(115, 224, 169, 0.09);
+        position: absolute;
+        top: 9%;
+        z-index: 0;
+        left: 10%;
+    }
+
+    .BlockChainWrapper {
+        display:none;
+    }
+    .MetakulWarapper {
+        font-family: "Outfit";
+        font-style: normal;
+        font-weight: 800;
+        font-size: 46px;
+        line-height: 121px;
+        color: rgba(115, 224, 169, 0.08);
+        text-shadow: 0px 0px 177px rgba(115, 224, 169, 0.09);
+        transform: rotate(-90deg);
+        position: absolute;
+        top: 11%;
+        z-index: 0;
+        left: 55%;
+    }
+    .MetaVerse {
+        font-family: "Outfit";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 46px;
+        line-height: 121px;
+        color: rgba(115, 224, 169, 0.08);
+        text-shadow: 0px 0px 177px rgba(115, 224, 169, 0.09);
+        position: absolute;
+        top: 48%;
+        z-index: 0;
+        left: 40%;
+    }
+
+    .HeroTextContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 50px;
+        flex-direction: column;
+    }
+}
+
+
+.HeroTextContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0px;
+    flex-direction: column;
+}

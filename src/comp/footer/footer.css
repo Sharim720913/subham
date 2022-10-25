@@ -1,0 +1,123 @@
+
+.FlexRow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.Container1 {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 25px;
+    margin-left: 10px;
+    margin-right: 10px
+}
+
+ItemContainer {
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.MetakulContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+    
+
+}
+
+.MetakulContainer2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+    background: linear-gradient(90.71deg, #1b295c 5%, #020c10 50%);
+    height: 50px
+}
+
+.MetaKulHeading {
+    background: linear-gradient(90.71deg, #73e0a9 0%, #5b68df 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 5px;
+    background-clip: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.ExtraHeadingContainer {
+    display: flex;
+    align-items: top;
+    flex-direction: column;
+}
+
+.MetkulContanierAnother {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+}
+
+.MetaKulContent {
+    font-weight: 100;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: justify;
+    color: #ffffff;
+   
+    padding-bottom:10px;
+}
+
+.IconSocial {
+    height: 40px;
+    width: 40px;
+    margin: 5px;
+}
+
+.MetakulConnectionContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top:50px;
+}
+
+.MetakulIconContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.MetakulIcon {
+    padding: 0px 20px 0 20px;
+    justify-content: center;
+    align-items: center;
+    margin-left:auto;
+    margin-right:auto;
+
+}
+
+
+@media only screen and (min-width: 1200px) {
+    .IconSocial {
+        height: 60px;
+        width: 60px;
+        
+    }
+
+    .MetakulConnectionContainer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        
+    }
+}
